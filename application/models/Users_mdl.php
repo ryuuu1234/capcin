@@ -1,0 +1,20 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
+
+		class Users_mdl extends MY_Model
+		{
+			var $column_order = 'id';
+			var $column_search = array("nama","username","password","level","photo",);
+		function __construct(){
+				parent::__construct();
+				$this->table = 't_users';
+				// $this->join1 = 't_r_kategori b', 'b.id_item = a.id', 'left';
+				// $this->join2 = 't_r_brand c', 'c.id_item = a.id', 'left';
+				$this->column = '*';
+				$this->order = 'id';
+				$this->asc = 'desc';
+				$this->desc = 'asc';
+				$this->id = 'id';
+				$this->where = "";
+			}
+		}
+		
