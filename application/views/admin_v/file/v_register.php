@@ -128,12 +128,12 @@
 										<input type="text" class="form-control input-sm" name="search_txt" id="search_txt" placeholder="Search Data">
 									</label> 
 									<!-- <label> --> 
-									<div style="display:inline-block" >With Selected : <i class="fa fa-long-arrow-right"></i></div>
+									<!-- <div style="display:inline-block" >With Selected : <i class="fa fa-long-arrow-right"></i></div>
 									<div style="display:inline-block" >
 										<ul class="list-anchor-table">
 											<li><button id="btnDelete" data-toggle="tooltip" title="Hapus Data" class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></button></li>
 										</ul>
-									</div>
+									</div> -->
 								</label> 
 							</div>
 							<!-- INI UNTUK KIRIM ARRAY ID -->
